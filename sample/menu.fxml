@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="800.0" maxWidth="1600.0" minHeight="600.0" minWidth="1200.0" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.menu">
+   <children>
+      <Label layoutX="386.0" layoutY="57.0" prefHeight="65.0" prefWidth="641.0" text="Hospital management system">
+         <font>
+            <Font name="Baskerville Old Face" size="55.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.15714285714285714">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.14196515083312988" green="0.042032163590192795" blue="0.3947368562221527" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="accounting_button" layoutX="490.0" layoutY="223.0" mnemonicParsing="false" onAction="#onClickAccounting" prefHeight="77.0" prefWidth="421.0" text="Accounting" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6901960968971252" green="0.09019608050584793" blue="0.1411764770746231" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007662835249042145">
+                     <color>
+                        <Color red="0.41960784792900085" green="0.0313725508749485" blue="0.01568627543747425" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.41960784792900085" green="0.0313725508749485" blue="0.01568627543747425" opacity="0.6000000238418579" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="doctor_button" layoutX="490.0" layoutY="350.0" mnemonicParsing="false" onAction="#onClickDoctor" prefHeight="77.0" prefWidth="421.0" text="Doctor" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.41960784792900085" green="0.0313725508749485" blue="0.01568627543747425" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.41960784792900085" green="0.0313725508749485" blue="0.01568627543747425" opacity="0.6000000238418579" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="nurse_button" layoutX="490.0" layoutY="475.0" mnemonicParsing="false" onAction="#onClickNurse" prefHeight="77.0" prefWidth="421.0" text="Nurse">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.41960784792900085" green="0.0313725508749485" blue="0.01568627543747425" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6899999976158142" green="0.0966000035405159" blue="0.1559399962425232" opacity="0.604347825050354" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="patient_button" layoutX="491.0" layoutY="596.0" mnemonicParsing="false" onAction="#onClickPatient" prefHeight="77.0" prefWidth="421.0" text="patient">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.41960784792900085" green="0.0313725508749485" blue="0.01568627543747425" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.41960784792900085" green="0.0313725508749485" blue="0.01568627543747425" opacity="0.6299999952316284" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Line endX="12.0" endY="476.0" layoutX="331.0" layoutY="208.0" startX="12.0" startY="-167.0" />
+      <Line endX="310.0" endY="243.5" layoutX="33.0" layoutY="441.0" startX="1028.0" startY="243.5" />
+      <Line endX="616.0" layoutX="445.0" layoutY="41.0" startX="-100.0" />
+      <Line endX="67.5" endY="-145.0" layoutX="994.0" layoutY="186.0" startX="67.5" startY="498.0" />
+   </children>
+</AnchorPane>

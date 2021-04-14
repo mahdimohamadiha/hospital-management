@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="800.0" maxWidth="1600.0" minHeight="600.0" minWidth="1200.0" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Nurse">
+    <children>
+        <Label layoutX="592.0" layoutY="65.0" text="Nurse page">
+            <font>
+                <Font name="Baskerville Old Face" size="48.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.41960784792900085" green="0.0313725508749485" blue="0.01568627543747425" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="0.6899999976158142" green="0.0966000035405159" blue="0.1559399962425232" opacity="0.604347825050354" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </textFill>
+        </Label>
+        <Label layoutX="103.0" layoutY="371.0" text="Visiting patient :">
+            <font>
+                <Font size="36.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.15714285714285714">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.14196515083312988" green="0.042032163590192795" blue="0.3947368562221527" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <TextArea fx:id="visiting_patient" layoutX="360.0" layoutY="307.0" prefHeight="182.0" prefWidth="489.0" promptText="Date and time of the visit , medications taken , patient condition and related description">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextArea>
+        <Button fx:id="record_button" layoutX="748.0" layoutY="560.0" mnemonicParsing="false" onAction="#onClickLoginRecord" prefHeight="51.0" prefWidth="199.0" text="Record" textFill="#978909">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <Button fx:id="back_button2" layoutX="442.0" layoutY="560.0" mnemonicParsing="false" onAction="#onClickBack2" prefHeight="51.0" prefWidth="191.0" text="Back" textFill="#978909">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+      <Label layoutX="120.0" layoutY="215.0" text="National code :">
+         <font>
+            <Font size="36.0" />
+         </font>
+          <textFill>
+              <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.15714285714285714">
+                  <stops>
+                      <Stop>
+                          <color>
+                              <Color red="0.020467836409807205" green="0.3684210479259491" blue="0.1944444477558136" />
+                          </color>
+                      </Stop>
+                      <Stop offset="1.0">
+                          <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                          </color>
+                      </Stop>
+                  </stops>
+              </LinearGradient>
+          </textFill>
+      </Label>
+      <TextField fx:id="national_code" layoutX="360.0" layoutY="221.0" prefHeight="40.0" prefWidth="300.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+        <Label layoutX="887.0" layoutY="309.0" text="Patients :">
+            <font>
+                <Font size="36.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.15714285714285714">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.020467836409807205" green="0.3684210479259491" blue="0.1944444477558136" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <TextArea fx:id="patients" layoutX="1031.0" layoutY="236.0" prefHeight="200.0" prefWidth="200.0">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextArea>
+        <Line endX="1043.0" endY="-26.0" layoutX="257.0" layoutY="79.0" startX="-161.0" startY="-26.0" />
+        <Line endX="107.5" endY="-50.5" layoutX="1193.0" layoutY="103.0" startX="107.5" startY="533.0" />
+        <Line endX="100.0" layoutX="1200.0" layoutY="637.0" startX="-1104.0" />
+        <Line endX="-34.5" endY="543.5" layoutX="130.0" layoutY="93.0" startX="-34.5" startY="-39.5" />
+    </children>
+</AnchorPane>

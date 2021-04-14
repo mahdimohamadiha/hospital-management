@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="800.0" maxWidth="1600.0" minHeight="600.0" minWidth="1200.0" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Nurse">
+    <children>
+        <Label layoutX="530.0" layoutY="115.0" text="Nurse login page">
+            <font>
+                <Font name="Baskerville Old Face" size="48.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.2904761904761905">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.5098039507865906" green="0.08627451211214066" blue="0.46666666865348816" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <TextField fx:id="user_name" layoutX="655.0" layoutY="272.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </TextField>
+        <Label layoutX="451.0" layoutY="271.0" text="user name :">
+            <font>
+                <Font size="36.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.40476190476190477">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.04313725605607033" green="0.3803921639919281" blue="0.2078431397676468" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <TextField fx:id="password" layoutX="655.0" layoutY="410.0">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </TextField>
+        <Label layoutX="466.0" layoutY="409.0" text="password :">
+            <font>
+                <Font size="36.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.4">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.04313725605607033" green="0.3803921639919281" blue="0.2078431397676468" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <Button fx:id="login_button" layoutX="579.0" layoutY="560.0" mnemonicParsing="false" onAction="#onClickLoginNurse" prefHeight="51.0" prefWidth="199.0" text="Login" textFill="#821677">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <Button fx:id="back_button" layoutX="342.0" layoutY="560.0" mnemonicParsing="false" onAction="#onClickBack" prefHeight="51.0" prefWidth="191.0" text="Back" textFill="#821677">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <Label fx:id="label" layoutX="804.0" layoutY="560.0" prefHeight="51.0" prefWidth="243.0" textFill="#185121">
+            <font>
+                <Font size="18.0" />
+            </font></Label>
+        <Line endX="628.0" layoutX="451.0" layoutY="634.0" startX="-142.0" />
+        <Line endX="52.5" endY="255.5" layoutX="1027.0" layoutY="378.0" startX="52.5" startY="-290.0" />
+        <Line endX="100.0" layoutX="979.0" layoutY="88.0" startX="-670.0" startY="0.5" />
+        <Line endX="50.5" endY="150.5" layoutX="258.0" layoutY="483.0" startX="50.5" startY="-394.0" />
+    </children>
+</AnchorPane>
